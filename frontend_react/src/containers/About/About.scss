@@ -4,6 +4,7 @@
     flex-direction: column;
 }
 
+
 .app__profiles{
     display: flex;
     justify-content: center;
@@ -26,7 +27,16 @@
         border-radius: 15px;
         object-fit: cover;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
 
+    @media screen and (min-width : 2000px) {
+        width: 370px;
+        margin: 2rem 4rem;
+
+        img{
+            height: 320px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
     }
 
 }
