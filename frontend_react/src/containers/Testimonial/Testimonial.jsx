@@ -16,14 +16,25 @@ const Testimonial = () => {
 
     client.fetch(query).then((data) => {
       setTestimonials(data);
-    });
+    })
 
     client.fetch(brandsQuery).then((data) => {
       setBrands(data);
-    });
-  }, []);
+    })
+  }, []); 
   return (
-    <div>Testimonials</div>
+    <>
+    {testimonials.length && (
+      <>
+      <div className="app__testimonial-item app__flex">
+        <img src={urlFor(testimonials[currentIndex].imgurl)} alt="testimonial" />
+        <div className="app__testimonial-content">
+          <p className="p-text">{testimonials[currentIndex].feedback}</p>
+        </div>
+      </div>
+      </>
+    )}
+    </>
   )
 }
 
@@ -31,6 +42,6 @@ const Testimonial = () => {
 
 export default AppWrap(
   MotionWrap(Testimonial,'app__testimonial'),
-   'testimonial',
+   'testimonials',
    "app__primarybg"
   );
