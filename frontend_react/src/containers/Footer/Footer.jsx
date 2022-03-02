@@ -25,16 +25,17 @@ const Footer = () => {
     setLoading(true);
 
     const contact = {
-      _type: "contact",
-      name: name,
-      email: email,
-      message: message,
+      _type: 'contact',
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
     };
 
     client.create(contact).then(() => {
       setLoading(false);
       setIsFormSubmitted(true);
-    });
+    })
+    .catch((err) => console.log(err));
   };
   return (
     <>
@@ -73,7 +74,7 @@ const Footer = () => {
               type="email"
               placeholder="Your Email"
               name="email"
-              value={email}
+              value={email} 
               onChange={handleChangeInput}
             />
           </div>
