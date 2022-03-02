@@ -12,6 +12,23 @@ const Footer = () => {
 
 
   const {name , email , message} = formData;
+
+  const handleChangeInput = (e)=>{
+    const {name, value} = e.target;
+
+    setFormData ({...formData, [name]: value})
+
+  }
+  const handleSubmit = ()=>{
+    setLoading(true)
+
+    const contact ={
+      _type : 'contact',
+      name : name,
+      email: email,
+      message: message
+    }
+  }
   return (
     <>
       <h2 className="head-text">Take a Coffee & Chat with me</h2>
@@ -37,7 +54,7 @@ const Footer = () => {
         <div>
           <textarea className="p-text" placeholder="Your Message" value={message} onChange={handleChangeInput}></textarea>
         </div>
-        <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}Send Message</button>
+        <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
       </div>
     </>
   );
