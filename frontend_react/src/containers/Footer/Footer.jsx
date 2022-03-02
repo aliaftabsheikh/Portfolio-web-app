@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
-          <a href="tel +1 (123) 456-789" className="p-text">
+          <a href="tel: +1 (123) 456-789" className="p-text">
             +1 (123) 456-789
           </a>
         </div>
@@ -82,6 +82,7 @@ const Footer = () => {
               className="p-text"
               placeholder="Your Message"
               value={message}
+              name="message"
               onChange={handleChangeInput}
             ></textarea>
           </div>
