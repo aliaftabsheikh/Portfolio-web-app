@@ -2,24 +2,27 @@
 
 ### :link: https://protfolio-web.netlify.app//
 
-### Learned from : [JavaScript Mastery](https://youtu.be/4oV65GVVits)
+### Learned from : [JavaScript Mastery](https://youtu.be/3HNyXCPDQ7Q)
 
 
 ## Images
 
-<img src='./src/assets/Geritch-home.png' />
-<img src='./src/assets/Geritch-gallery.png' />
-<img src='./src/assets/Geritch-footer.png' />
+<img src='./frontend_react/src/assets/L-1.png'/>
+<img src='./frontend_react/src/assets/L-2.png'/>
+<img src='./frontend_react/src/assets/L-3.png'/>
+<img src='./frontend_react/src/assets/L-4.png'/>
+
 
 ## Mobile Responsive
 
-<img src='./src/assets/Geritch-mobile-home.png' />
-<img src='./src/assets/Geritch-mobile-sidebar.png' />
+<img src='./frontend_react/src/assets/MR-1.png'/>
+<img src='./frontend_react/src/assets/MR-2.png'/>
+<img src='./frontend_react/src/assets/MR-3.png'/>
 
 
 ## Run Locally
 
-- Run this command `git clone https://github.com/aliaftabsheikh/Geritch-Resturant.git`
+- Run this command `git clone https://github.com/aliaftabsheikh/Protfolio-web.git`
 - You are now in the dev environment and you can play around
 
 ## Tech Stack
@@ -28,7 +31,8 @@
 - CSS3
 - Javascript ES6
 - React js
-- Github
+- Sanity
+- Framer Motion
 
 ## How we Learn
 
@@ -36,6 +40,6 @@
 - React file and folder structure
 - Fundamental CSS properties to master flex & grid
 - Fundamentals of the CSS BEM Model
-- From soft and pleasant animations to complex gradients
-- Perfectly placed media queries for satisfactory responsiveness covering almost devices
-- And at the end you'll learn how to deploy your websites to extremely fast servers and give them a custom domain name.
+- From soft and pleasant animations with Framer Motion
+- Sanity usage to get and insert data
+- And at the end we will learn how to deploy your websites at Netlify
