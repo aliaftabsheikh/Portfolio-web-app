@@ -8,6 +8,7 @@
 ## Images
 
 <img src='./frontend_react/src/assets/L-1.png'/>
+<img src='./frontend_react/src/assets/L-2.png'/>
 <img src='./frontend_react/src/assets/L-3.png'/>
 <img src='./frontend_react/src/assets/L-4.png'/>
 
