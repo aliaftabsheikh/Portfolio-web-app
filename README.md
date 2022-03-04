@@ -29,10 +29,11 @@
 
 - HTML5
 - CSS3
-- Javascript ES6
+- Javascript
 - React js
 - Sanity
 - Framer Motion
+- Netlify
 
 ## How we Learn
 
