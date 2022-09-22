@@ -1,4 +1,4 @@
-### Protfolio Web
+### Portfolio Web App
 
 ### :link: https://protfolio-web.netlify.app//
 
